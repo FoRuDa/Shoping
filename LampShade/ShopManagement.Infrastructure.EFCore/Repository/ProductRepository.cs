@@ -49,6 +49,7 @@
                     Category = x.Category.Name,
                     CategoryId = x.CategoryId,
                     Code = x.Code,
+                    IsInStock = x.IsInStock,
                     CreationDate = x.CreationDate.ToString()
                 });
 
