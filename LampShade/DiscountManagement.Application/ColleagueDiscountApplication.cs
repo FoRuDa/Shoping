@@ -51,6 +51,7 @@ namespace DiscountManagement.Application
             var operation = new OperationResult();
             var colleagueDiscount = _colleagueDiscountRepository.Get(id);
             colleagueDiscount.Remove();
+            _colleagueDiscountRepository.SaveChanges();
             return operation.Success();
         }
 
@@ -58,7 +59,8 @@ namespace DiscountManagement.Application
         {
             var operation = new OperationResult();
             var colleagueDiscount = _colleagueDiscountRepository.Get(id);
-            colleagueDiscount.Remove();
+            colleagueDiscount.Restore();
+            _colleagueDiscountRepository.SaveChanges();
             return operation.Success();
         }
 

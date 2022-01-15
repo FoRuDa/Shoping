@@ -196,3 +196,6 @@ E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.MvcApplicationPart
 E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Customer\Create.cshtml.g.cs
 E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Customer\Edit.cshtml.g.cs
 E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Customer\Index.cshtml.g.cs
+E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Colleague\Create.cshtml.g.cs
+E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Colleague\Edit.cshtml.g.cs
+E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Colleague\Index.cshtml.g.cs
