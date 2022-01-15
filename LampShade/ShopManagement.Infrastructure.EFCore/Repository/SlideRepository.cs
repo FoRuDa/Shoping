@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using System.Security.Cryptography.X509Certificates;
+using _0_Framework.Application;
 using _0_Framework.Domain;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
@@ -30,7 +31,8 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Heading = x.Heading,
                 Title = x.Title,
                 BtnText = x.BtnText,
-                Text = x.Text
+                Text = x.Text,
+                Link = x.Link
             }).FirstOrDefault(x => x.Id == id);
         }
 
@@ -43,7 +45,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Heading = x.Heading,
                 Title = x.Title,
                 IsRemove = x.IsRemove,
-                CreationDate = x.CreationDate.ToString(),
+                CreationDate = x.CreationDate.ToFarsi(),
             }).OrderByDescending(x=>x.Id).ToList();
         }
     }

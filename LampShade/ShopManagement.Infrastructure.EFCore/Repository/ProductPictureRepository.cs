@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.Product;
@@ -42,7 +43,7 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Product = x.Product.Name,
                 ProductId = x.ProductId,
                 IsRemove = x.IsRemoved,
-                CreationDate = x.CreationDate.ToString()
+                CreationDate = x.CreationDate.ToFarsi()
             });
 
             if (searchModel.ProductId != 0)

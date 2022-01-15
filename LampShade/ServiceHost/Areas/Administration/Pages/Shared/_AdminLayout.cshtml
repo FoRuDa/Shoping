@@ -6,7 +6,7 @@
     <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
     <meta name="author" content="Coderthemes">
 
-    <link rel="shortcut icon" href="images/favicon_1.ico">
+    <link rel="shortcut icon" href="~/favicon.ico">
 
     <title>@ViewData["Title"] - LampShade</title>
 
@@ -29,6 +29,7 @@
     <link href="~/AdminTheme/assets/sweet-alert/sweet-alert.min.css" rel="stylesheet">
 
     <!-- Custom Files -->
+    <link href="~/AdminTheme/assets/css/persian-datepicker.min.css" rel="stylesheet" />
     <link href="~/AdminTheme/assets/css/helper.css" rel="stylesheet" type="text/css"/>
     <link href="~/AdminTheme/assets/css/style.css" rel="stylesheet" type="text/css"/>
 
@@ -239,19 +240,16 @@
 <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
 <script src="~/AdminTheme/assets/js/site.js"></script>
+<script src="~/AdminTheme/assets/js/persian-date.min.js"></script>
+<script src="~/AdminTheme/assets/js/persian-datepicker.min.js"></script>
 
-
-<!-- <script type="text/javascript"> -->
-<!-- /* ============================================== -->
-<!-- Counter Up -->
-<!-- =============================================== */ -->
-<!-- jQuery(document).ready(function($) { -->
-<!-- $('.counter').counterUp({ -->
-<!-- delay: 100, -->
-<!-- time: 1200 -->
-<!-- }); -->
-<!-- }); -->
-<!-- </script> -->
+<script>
+    $('.persianDateInput').persianDatepicker({
+        
+        format: 'YYYY/MM/DD',
+        autoClose: true
+    });
+</script>
 
 </body>
 </html>
