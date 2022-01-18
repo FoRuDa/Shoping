@@ -199,3 +199,13 @@ E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pag
 E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Colleague\Create.cshtml.g.cs
 E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Colleague\Edit.cshtml.g.cs
 E:\Shoping\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Areas\Administration\Pages\Discount\Colleague\Index.cshtml.g.cs
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.dll
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.dll
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.dll
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.Configuration.pdb
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Domain.pdb
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Infrastructure.EFCore.pdb
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.dll
+E:\Shoping\LampShade\ServiceHost\bin\Debug\net5.0\InventoryManagement.Application.pdb

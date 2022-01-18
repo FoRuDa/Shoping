@@ -1,0 +1,17 @@
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.deps.json
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.dll
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\ref\InventoryManagement.Application.dll
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.pdb
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\0_Framework.dll
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\0_Framework.pdb
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csprojAssemblyReference.cache
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfoInputs.cache
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.AssemblyInfo.cs
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.csproj.CopyComplete
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.dll
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\ref\InventoryManagement.Application.dll
+E:\Shoping\LampShade\InventoryManagement.Application\obj\Debug\net5.0\InventoryManagement.Application.pdb
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.dll
+E:\Shoping\LampShade\InventoryManagement.Application\bin\Debug\net5.0\InventoryManagement.Application.Contract.pdb
