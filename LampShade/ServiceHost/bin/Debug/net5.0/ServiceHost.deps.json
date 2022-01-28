@@ -2428,6 +2428,8 @@
       },
       "01_LampShadeQuery/1.0.0": {
         "dependencies": {
+          "DiscountManagement.Infrastructure.EFCore": "1.0.0",
+          "InventoryManagement.Infrastructure.EFCore": "1.0.0",
           "ShopManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
@@ -2515,7 +2517,9 @@
       },
       "InventoryManagement.Application/1.0.0": {
         "dependencies": {
-          "InventoryManagement.Application.Contract": "1.0.0"
+          "InventoryManagement.Application.Contract": "1.0.0",
+          "InventoryManagement.Domain": "1.0.0",
+          "InventoryManagement.Infrastructure.EFCore": "1.0.0"
         },
         "runtime": {
           "InventoryManagement.Application.dll": {}
@@ -2526,7 +2530,8 @@
       },
       "InventoryManagement.Application.Contract/1.0.0": {
         "dependencies": {
-          "0_Framework": "1.0.0"
+          "0_Framework": "1.0.0",
+          "Microsoft.AspNetCore.Mvc.ViewFeatures": "2.2.0"
         },
         "runtime": {
           "InventoryManagement.Application.Contract.dll": {}

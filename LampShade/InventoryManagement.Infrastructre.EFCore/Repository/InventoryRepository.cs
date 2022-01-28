@@ -4,6 +4,7 @@ using _0_Framework.Application;
 using _0_Framework.Infrastructure;
 using InventoryManagement.Application.Contract.Inventory;
 using InventoryManagement.Domain.InventoryAgg;
+using Microsoft.Extensions.Options;
 using ShopManagement.Infrastructure.EFCore;
 
 namespace InventoryManagement.Infrastructure.EFCore.Repository
@@ -50,7 +51,7 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
             if (searchModel.ProductId > 0)
                 query = query.Where(x => x.ProductId == searchModel.ProductId);
 
-            if (!searchModel.InStock)
+            if (searchModel.InStock)
                 query = query.Where(x => !x.InStock);
 
             var inventory = query.OrderByDescending(x => x.Id).ToList();
@@ -59,5 +60,24 @@ namespace InventoryManagement.Infrastructure.EFCore.Repository
             return inventory;
 
         }
-    }
+
+        public List<InventoryOperationViewModel> GetOperationLog(long inventoryId)
+        {
+            var inventory = _context.Inventory.FirstOrDefault(x => x.Id == inventoryId);
+            if (inventory == null)
+                return null;
+            return inventory.Operations.Select(x => new InventoryOperationViewModel
+            {
+                Id = x.Id,
+                Count = x.Count,
+                CurrentCount = x.CurrentCount,
+                Description = x.Description,
+                Operation = x.Operation,
+                OperationDate = x.OperationDate.ToFarsi(),
+                OperationId = x.OperationId,
+                Operator = "مدیر سیستم",
+                OrderId = x.OrderId
+            }).OrderByDescending(x=>x.Id).ToList();
+        }
+   }
 }

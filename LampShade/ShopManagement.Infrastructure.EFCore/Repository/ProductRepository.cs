@@ -28,7 +28,6 @@
                     Slug = x.Slug,
                     Picture = x.Picture,
                     Keywords = x.Keywords,
-                    UnitPrice = x.UnitPrice,
                     CategoryId = x.CategoryId,
                     PictureAlt = x.PictureAlt,
                     Description = x.Description,
@@ -55,11 +54,9 @@
                     Id = x.Id,
                     Name = x.Name,
                     Picture = x.Picture,
-                    UnitPrice = x.UnitPrice,
                     Category = x.Category.Name,
                     CategoryId = x.CategoryId,
                     Code = x.Code,
-                    IsInStock = x.IsInStock,
                     CreationDate = x.CreationDate.ToFarsi()
                 });
 

@@ -21,7 +21,7 @@ namespace ShopManagement.Application
            if (_productRepository.Exist(x => x.Name == command.Name))
                return operation.Failed(ApplicationMessage.Duplicate);
            var slug = command.Slug.Slugify();
-           var product = new Product(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
+           var product = new Product(command.Name, command.Code,command.ShortDescription,
                command.Description, command.Picture, command.PictureAlt, command.PictureTitle,
                command.Keywords, command.MetaDescription, slug, command.CategoryId);
            _productRepository.Create(product);
@@ -40,39 +40,14 @@ namespace ShopManagement.Application
                 return operation.Failed(ApplicationMessage.Duplicate);
 
             var slug = command.Slug.Slugify();
-            product.Edit(command.Name, command.Code, command.UnitPrice, command.ShortDescription,
+            product.Edit(command.Name, command.Code, command.ShortDescription,
                 command.Description, command.Picture, command.PictureAlt, command.PictureTitle,
                 command.Keywords, command.MetaDescription, slug, command.CategoryId);
             _productRepository.SaveChanges();
             return operation.Success();
         }
 
-        public OperationResult InStock(long id)
-        {
-            var operation = new OperationResult();
-            var product = _productRepository.Get(id);
-
-            if (product == null)
-                return operation.Failed(ApplicationMessage.NotFound);
-
-            product.InStock();
-            _productRepository.SaveChanges();
-            return operation.Success();
-        }
-
-        public OperationResult NotInStock(long id)
-        {
-            var operation = new OperationResult();
-            var product = _productRepository.Get(id);
-
-            if (product == null)
-                return operation.Failed(ApplicationMessage.NotFound);
-
-            product.NotInStock();
-            _productRepository.SaveChanges();
-            return operation.Success();
-        }
-
+       
         public EditProduct GetDetails(long id)
         {
             return _productRepository.GetDetail(id);

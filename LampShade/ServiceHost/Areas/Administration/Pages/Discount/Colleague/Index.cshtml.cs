@@ -13,12 +13,13 @@ namespace ServiceHost.Areas.Administration.Pages.Discount.Colleague
     {
         [TempData]
         public string Message { set; get; }
-        public ColleagueDiscountViewModel SearchModel;
+        public ColleagueDiscountSearchModel SearchModel;
         public List<ColleagueDiscountViewModel> ColleagueDiscounts;
         public SelectList Products;
 
         private readonly IColleagueDiscountApplication _ColleagueDiscountApplication;
         private readonly IProductApplication _productApplication;
+
         public IndexModel(IColleagueDiscountApplication colleagueDiscountApplication, IProductApplication productApplication)
         {
             _ColleagueDiscountApplication = colleagueDiscountApplication;

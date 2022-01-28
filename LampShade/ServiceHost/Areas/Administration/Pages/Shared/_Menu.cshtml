@@ -38,9 +38,11 @@
         <div id="sidebar-menu">
             <ul>
                 <li>
-                    <a asp-page="/index" class="waves-effect active">
-                        <i class="md md-home"></i><span> داشبورد </span>
-                    </a>
+                    <a asp-page="/index" class="waves-effect active"><i class="md md-home"></i><span> داشبورد </span></a>
+                </li>
+
+                <li>
+                    <a asp-page="/inventory/index" class="waves-effect "><i class="md md-home"></i><span> انبارداری </span></a>
                 </li>
 
                 <li class="has_sub">
@@ -59,9 +61,9 @@
 
                         <li><a asp-page="/shop/slides/index">اسلایدر</a></li>
                     </ul>
-                   
+
                 </li>
-                
+
                 <li class="has_sub">
                     <a class="waves-effect">
                         <i class="md md-mail"></i><span> سیستم تخفیفات </span>
@@ -69,7 +71,7 @@
                             <i class="md md-add"></i>
                         </span>
                     </a>
-                  
+
                     <ul class="list-unstyled">
                         <li><a asp-page="/Discount/Customer/index">تخفیفات مشتری</a></li>
 
