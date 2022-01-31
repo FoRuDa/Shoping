@@ -1981,6 +1981,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.13"
         },
         "compile": {
@@ -6606,11 +6608,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Shoping\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+      "projectUniqueName": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
       "projectName": "ShopManagement.Application",
-      "projectPath": "E:\\Shoping\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
+      "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application\\ShopManagement.Application.csproj",
       "packagesPath": "C:\\Users\\FoRuD\\.nuget\\packages\\",
-      "outputPath": "E:\\Shoping\\LampShade\\ShopManagement.Application\\obj\\",
+      "outputPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6633,11 +6635,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj"
             },
-            "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
             }
           }
         }

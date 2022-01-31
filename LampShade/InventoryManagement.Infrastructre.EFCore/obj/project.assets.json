@@ -2614,6 +2614,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.13"
         },
         "compile": {
@@ -8513,11 +8515,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Shoping\\LampShade\\InventoryManagement.Infrastructre.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+      "projectUniqueName": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Infrastructre.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
       "projectName": "InventoryManagement.Infrastructure.EFCore",
-      "projectPath": "E:\\Shoping\\LampShade\\InventoryManagement.Infrastructre.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+      "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Infrastructre.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
       "packagesPath": "C:\\Users\\FoRuD\\.nuget\\packages\\",
-      "outputPath": "E:\\Shoping\\LampShade\\InventoryManagement.Infrastructre.EFCore\\obj\\",
+      "outputPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Infrastructre.EFCore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -8540,14 +8542,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Shoping\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Domain\\InventoryManagement.Domain.csproj"
             },
-            "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj"
             },
-            "E:\\Shoping\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Infrastructure.EFCore\\ShopManagement.Infrastructure.EFCore.csproj"
             }
           }
         }

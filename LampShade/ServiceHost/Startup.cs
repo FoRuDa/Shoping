@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using _0_Framework.Application;
 using DiscountManagement.Configuration;
 using InventoryManagement.Infrastructure.Configuration;
 using ShopManagement.Configuration;
@@ -27,6 +28,7 @@ namespace ServiceHost
         public void ConfigureServices(IServiceCollection services)
         {
             var connectionString = Configuration.GetConnectionString("ShoppingDB");
+            services.AddTransient<IFileUploader, FileUploader>();
             ShopManagementBootstrapper.Configure(services,connectionString);
             DiscountBootstrapper.Configure(services,connectionString);
             InventoryBootstrapper.Configure(services,connectionString);

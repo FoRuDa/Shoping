@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Shoping\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {}
+    "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {}
   },
   "projects": {
-    "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj": {
+    "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectUniqueName": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj",
         "projectName": "0_Framework",
-        "projectPath": "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj",
+        "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj",
         "packagesPath": "C:\\Users\\FoRuD\\.nuget\\packages\\",
-        "outputPath": "E:\\Shoping\\LampShade\\0_Framework\\obj\\",
+        "outputPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -46,6 +46,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.13, )"
@@ -70,14 +78,14 @@
         }
       }
     },
-    "E:\\Shoping\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
+    "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Shoping\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectUniqueName": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
         "projectName": "DiscountManagement.Application.Contract",
-        "projectPath": "E:\\Shoping\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
+        "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Application.Contract\\DiscountManagement.Application.Contract.csproj",
         "packagesPath": "C:\\Users\\FoRuD\\.nuget\\packages\\",
-        "outputPath": "E:\\Shoping\\LampShade\\DiscountManagement.Application.Contract\\obj\\",
+        "outputPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Application.Contract\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -100,11 +108,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
-                "projectPath": "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj"
+              "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj"
               }
             }
           }
@@ -137,14 +145,14 @@
         }
       }
     },
-    "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
+    "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj",
         "projectName": "ShopManagement.Domain",
-        "projectPath": "E:\\Shoping\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj",
+        "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\ShopManagement.Domain.csproj",
         "packagesPath": "C:\\Users\\FoRuD\\.nuget\\packages\\",
-        "outputPath": "E:\\Shoping\\LampShade\\ShomManagement.Domain\\obj\\",
+        "outputPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShomManagement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -167,11 +175,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj"
               },
-              "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
-                "projectPath": "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
+              "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj"
               }
             }
           }
@@ -204,14 +212,14 @@
         }
       }
     },
-    "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
+    "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "projectName": "ShopManagement.Application.Contracts",
-        "projectPath": "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
+        "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\ShopManagement.Application.Contracts.csproj",
         "packagesPath": "C:\\Users\\FoRuD\\.nuget\\packages\\",
-        "outputPath": "E:\\Shoping\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Application.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -234,8 +242,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj": {
-                "projectPath": "E:\\Shoping\\LampShade\\0_Framework\\0_Framework.csproj"
+              "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\0_Framework\\0_Framework.csproj"
               }
             }
           }

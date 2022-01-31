@@ -11,5 +11,6 @@ namespace _0_Framework.Application
         public const  string IsRequired = "این فیلد اجباری است.";
 
 
+        public const string InvalidFileFormat = "فرمت فایل مجاز نمی باشد";
     }
 }

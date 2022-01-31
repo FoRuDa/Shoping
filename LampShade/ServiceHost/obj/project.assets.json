@@ -3160,6 +3160,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Http.Features": "2.2.0",
+          "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
           "Microsoft.EntityFrameworkCore": "5.0.13"
         },
         "compile": {
@@ -10173,11 +10175,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Shoping\\LampShade\\ServiceHost\\ServiceHost.csproj",
+      "projectUniqueName": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ServiceHost\\ServiceHost.csproj",
       "projectName": "ServiceHost",
-      "projectPath": "E:\\Shoping\\LampShade\\ServiceHost\\ServiceHost.csproj",
+      "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ServiceHost\\ServiceHost.csproj",
       "packagesPath": "C:\\Users\\FoRuD\\.nuget\\packages\\",
-      "outputPath": "E:\\Shoping\\LampShade\\ServiceHost\\obj\\",
+      "outputPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ServiceHost\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -10200,14 +10202,14 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\Shoping\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj"
             },
-            "E:\\Shoping\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Infrastructure.Configuration\\InventoryManagement.Infrastructure.Configuration.csproj"
             },
-            "E:\\Shoping\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
-              "projectPath": "E:\\Shoping\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\ShopManagement.Configuration\\ShopManagement.Configuration.csproj"
             }
           }
         }

@@ -5,6 +5,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using _0_Framework.Application;
 using _0_Framework.Infrastructure;
+using Microsoft.EntityFrameworkCore;
 using ShopManagement.Application.Contracts.ProductCategory;
 using ShopManagement.Domain.ProductCategoryAgg;
 
@@ -38,11 +39,16 @@ namespace ShopManagement.Infrastructure.EFCore.Repository
                 Description = x.Description,
                 Keywords = x.Keywords,
                 MetaDescription = x.MetaDescription,
-                Picture = x.Picture,
+              
                 PictureAlt = x.PictureAlt,
                 PictureTitle = x.PictureTitle,
                 Slug = x.Slug
             }).FirstOrDefault(x => x.Id == id);
+        }
+
+        public string GetCategorySlugBy(long id)
+        {
+            return _context.ProductCategories.Select(x => new { x.Id, x.Slug }).FirstOrDefault(x => x.Id == id).Slug;
         }
 
         public List<ProductCategoryViewModel> Search(ProductCategorySearchModel searchModel)

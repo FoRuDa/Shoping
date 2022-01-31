@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "F1n8sk/pn7lbrLPYAqsNsS8fODxUxKB/EKJuSEiWPKCRgpchQln03c9W/CBoek4u/Gd/x5QaM4QstRugEJuCyg==",
+  "dgSpecHash": "cUtl5AMstlS65A+vx2Vixm1FxKTVdR5MxDA5f+m67fze9NSbwhlfbFIneE+bYwHdLxlEkM67Zzz4gQYsB5zPlQ==",
   "success": true,
-  "projectFilePath": "E:\\Shoping\\LampShade\\01_LampShadeQuery\\01_LampShadeQuery.csproj",
+  "projectFilePath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\01_LampShadeQuery\\01_LampShadeQuery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

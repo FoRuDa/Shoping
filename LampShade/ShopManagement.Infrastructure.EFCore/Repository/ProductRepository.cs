@@ -16,7 +16,11 @@
                 _context = context;
             }
 
-          
+
+            public Product GetProductWithCategory(long id)
+            {
+                return _context.Products.Include(x => x.Category).FirstOrDefault(x => x.Id == id);
+            }
 
             public EditProduct GetDetail(long id)
             {
@@ -26,7 +30,7 @@
                     Name = x.Name,
                     Code = x.Code,
                     Slug = x.Slug,
-                    Picture = x.Picture,
+                   
                     Keywords = x.Keywords,
                     CategoryId = x.CategoryId,
                     PictureAlt = x.PictureAlt,

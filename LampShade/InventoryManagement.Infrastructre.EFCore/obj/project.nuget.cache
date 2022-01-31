@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fHjV8VpFXPlRWpSzvTG+/Mj1OPTjPuKTzUsP8WYc/9UUEYJ7G3DuQZ4qR/spesIYMJMVafBr15sr4ueJ2Ko5OQ==",
+  "dgSpecHash": "2JrXBkRaCzok3NecukVWWSxsAGYU9b1X17HQ4aIzW4jbhKKEq9JHq4vFhKSVaqh12gDUglfvdXgmnIJzCX7Mrg==",
   "success": true,
-  "projectFilePath": "E:\\Shoping\\LampShade\\InventoryManagement.Infrastructre.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
+  "projectFilePath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\InventoryManagement.Infrastructre.EFCore\\InventoryManagement.Infrastructure.EFCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FoRuD\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

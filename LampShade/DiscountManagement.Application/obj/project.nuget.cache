@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S6nISwch7NUe1Y2LMvM6r0sL6RAEwFQ+Yv6XasS7B0PlaI8uKoeGUmbcd9hoWF78Uo1ty57l01g0qMxK53DrqQ==",
+  "dgSpecHash": "VIGVU73lE8bi18pnatpiH1rWVaSFjVq6Ycrvlwa2fFOLjW1YUy+vNdhHosplHmkVXbZxQSgUhj+kX2G0TJxY0g==",
   "success": true,
-  "projectFilePath": "E:\\Shoping\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
+  "projectFilePath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Application\\DiscountManagement.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",

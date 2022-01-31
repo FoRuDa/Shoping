@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -10,6 +10,7 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 {
     public class IndexModel : PageModel
     {
+        public string Message;
         public ProductCategorySearchModel SearchModel;
         public List<ProductCategoryViewModel> ProductCategories;
         private readonly IProductCategoryApplication _productCategoryApplication;
@@ -44,8 +45,13 @@ namespace ServiceHost.Areas.Administration.Pages.Shop.ProductCategories
 
         public JsonResult OnPostEdit(EditProductCategory command)
         {
-            var result = _productCategoryApplication.Edit(command);
-            return new JsonResult(result);
+            if (ModelState.IsValid)
+            {
+                var result = _productCategoryApplication.Edit(command);
+                return new JsonResult(result);
+            }
+
+            return new JsonResult("فرمت فایل مجاز نمی باشد.");
         }
     }
 }
