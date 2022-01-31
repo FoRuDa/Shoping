@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using _0_Framework.Application;
+using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json.Serialization;
 using ShopManagement.Application.Contracts.Product;
 
@@ -12,7 +13,7 @@ namespace ShopManagement.Application.Contracts.ProductPicture
         public long ProductId { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string Picture { get; set; }
+        public IFormFile Picture { get; set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureAlt { get; set; }

@@ -1,13 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Reflection.Metadata.Ecma335;
 using _0_Framework.Application;
+using Microsoft.AspNetCore.Http;
 
 namespace ShopManagement.Application.Contracts.Slide
 {
    public class CreateSlide
     {
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
-        public string Picture { get;  set; }
+        public IFormFile Picture { get;  set; }
 
         [Required(ErrorMessage = ValidationMessages.IsRequired)]
         public string PictureAlt { get;  set; }
