@@ -444,3 +444,4 @@ C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ServiceHost\obj\Debug\net5.0\
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.Views.pdb
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.csproj.CopyComplete
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ServiceHost\obj\Debug\net5.0\ServiceHost.genruntimeconfig.cache
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ServiceHost\obj\Debug\net5.0\Razor\Pages\Product.cshtml.g.cs
