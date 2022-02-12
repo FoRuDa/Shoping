@@ -7,6 +7,7 @@ using _01_LampShadeQuery.Contract.ProductCategory;
 using DiscountManagement.Infrastructure.EFCore;
 using InventoryManagement.Infrastructure.EFCore;
 using Microsoft.EntityFrameworkCore;
+using ShopManagement.Domain.CommentAgg;
 using ShopManagement.Domain.ProductPictureAgg;
 using ShopManagement.Infrastructure.EFCore;
 
@@ -35,6 +36,7 @@ namespace _01_LampShadeQuery.Query
 
             var product = _shopContext.Products.Include(x => x.Category)
                 .Include(x=>x.ProductPictures)
+                .Include(x=>x.Comments)
                 .Select(x => new ProductQueryModel
                 {
                     Id = x.Id,
@@ -50,8 +52,9 @@ namespace _01_LampShadeQuery.Query
                     Keywords = x.Keywords,
                     MetaDescription = x.MetaDescription,
                     ShortDescription = x.ShortDescription,
-                    Pictures = MapPicture(x.ProductPictures)
-                   
+                    Pictures = MapPicture(x.ProductPictures),
+                    Comments = MapComments(x.Comments)
+
                 }).OrderByDescending(x => x.Id).FirstOrDefault(x=>x.Slug==slug);
            
                 var productInventory = inventory.FirstOrDefault(x => x.ProductId == product.Id);
@@ -76,6 +79,17 @@ namespace _01_LampShadeQuery.Query
             
 
             return product;
+        }
+
+        private static List<CommentQueryModel> MapComments(List<Comment> comments)
+        {
+            return comments.Where(x=>!x.Cancel).Where(x=>x.Confirm).Select(x => new CommentQueryModel
+            {
+                Id = x.Id,
+                Name = x.Name,
+                Message = x.Message,
+               
+            }).OrderByDescending(x=>x.Id).ToList();
         }
 
         private static List<ProductPictureQueryModel> MapPicture(List<ProductPicture> ProductPictures)
