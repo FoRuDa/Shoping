@@ -72,3 +72,9 @@ C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.dll
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ref\ShopManagement.Configuration.dll
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\obj\Debug\net5.0\ShopManagement.Configuration.pdb
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.dll
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.dll
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Domain.pdb
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\ShopManagement.Configuration\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb

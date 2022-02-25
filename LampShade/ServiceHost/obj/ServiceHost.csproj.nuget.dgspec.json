@@ -34,6 +34,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+              },
               "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
                 "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"
               },
@@ -315,6 +318,9 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
+              "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\01_LampShadeQuery\\01_LampShadeQuery.csproj": {
+                "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\01_LampShadeQuery\\01_LampShadeQuery.csproj"
+              },
               "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contracts.csproj": {
                 "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\BlogManagement.Application.Contract\\BlogManagement.Application.Contracts.csproj"
               },
