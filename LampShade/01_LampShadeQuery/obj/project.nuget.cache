@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "3u6UwKWM9TbwTppclBU4+tVDehTBAkcEjXxVZfAtxjDvdwAc7msSeOV+IU5ef3WqKPRQsltYipb13zlSPdGk5A==",
+  "dgSpecHash": "aFdYuJXwFIx7kJJGsBpW4A0sY2XjcFHNVChK3naY6yxizoEB1zhj7yE9WpQ+XKyTcbAXFPexPF5dvlvZbSb9tg==",
   "success": true,
   "projectFilePath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\01_LampShadeQuery\\01_LampShadeQuery.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FoRuD\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
+    "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",

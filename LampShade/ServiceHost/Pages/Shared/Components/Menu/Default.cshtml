@@ -1,4 +1,7 @@
-﻿@model _01_LampShadeQuery.MenuModel
+﻿@using _0_Framework.Application
+@model _01_LampShadeQuery.MenuModel
+@inject IAuthHelper _authHelper
+
 @{
 
 }
@@ -20,7 +23,7 @@
                 </li>
 
                 <li class="menu-item-has-children">
-                    <a >گروه محصولات</a>
+                    <a>گروه محصولات</a>
 
                     <ul class="sub-menu" style="direction: rtl">
                         @foreach (var item in Model.ProductCategories)
@@ -45,29 +48,29 @@
                 </li>
 
                 <li class="menu-item-has-children">
-                    <a >مقالات</a>
+                    <a>مقالات</a>
                     <ul class="sub-menu">
                         @foreach (var article in Model.ArticleCategories)
                         {
-                        <li class="menu-item-has-children">
-                            <a asp-page="/ArticleCategory" asp-route-id="@article.Slug">@article.Name</a>
+                            <li class="menu-item-has-children">
+                                <a asp-page="/ArticleCategory" asp-route-id="@article.Slug">@article.Name</a>
 
-                            @if (article.Articles != null)
-                            {
+                                @if (article.Articles != null)
+                                {
 
-                                <ul class="sub-menu">
-                                    @foreach (var item in article.Articles)
-                                    {
-                                        <li>
-                                            <a asp-page="/Product" asp-route-id="@item.Slug">@item.Title</a>
-                                        </li>
-                                    }
-                                </ul>
-                            }
-                        </li>
-                            }
-                      
-                        
+                                    <ul class="sub-menu">
+                                        @foreach (var item in article.Articles)
+                                        {
+                                            <li>
+                                                <a asp-page="/Product" asp-route-id="@item.Slug">@item.Title</a>
+                                            </li>
+                                        }
+                                    </ul>
+                                }
+                            </li>
+                        }
+
+
 
                     </ul>
                 </li>
@@ -75,6 +78,19 @@
                 <li>
                     <a href="contact.html">تماس با ما</a>
                 </li>
+                @if (!_authHelper.IsAuthenticated())
+                {
+                    <li>
+                        <a asp-page="/Account"> ورود</a>
+                    </li>
+                }
+                else
+                {
+                    <li>
+                        <a asp-page="/Account" asp-page-handler="logout"> خروح</a>
+                    </li>
+                }
+
             </ul>
         </nav>
     </div>

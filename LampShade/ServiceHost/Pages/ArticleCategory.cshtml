@@ -1,7 +1,9 @@
 ﻿@page "{id}"
 @model ServiceHost.Pages.ArticleCategoryModel
 @{
-    ViewData["Title"] = "گروه مقالات";
+    ViewData["Title"] = @Model.ArticleCategory.Name;//h1 page
+    ViewData["keywords"] = @Model.ArticleCategory.Keywords;
+    ViewData["metaDescription"] = @Model.ArticleCategory.MetaDescription;
 }
 
 <div class="breadcrumb-area section-space--half">
@@ -54,10 +56,10 @@
                                                         </h3>
                                                         <p class="post-meta">
                                                             <span class="date">@article.PublishedDate</span>
-                                                            
+
                                                         </p>
                                                         <p class="short-desc">
-                                                           @article.ShortDescription
+                                                            @article.ShortDescription
                                                         </p>
                                                         <a asp-page="/Article" asp-route-id="@article.Slug"
                                                            class="blog-post-link">ادامه مطلب</a>
@@ -101,13 +103,13 @@
                                         <ul class="single-sidebar-widget__category-list">
                                             @foreach (var item in Model.ArticleCategories)
                                             {
-                                                <li >
+                                                <li>
                                                     <a asp-page="/ArticleCategory" asp-route-id="@item.Slug" class="active">
                                                         @item.Name <span class="counter">@item.ArticleCount</span>
                                                     </a>
                                                 </li>
                                             }
-                                            
+
 
                                         </ul>
                                     </div>
@@ -133,23 +135,23 @@
                                                     </div>
                                                 </div>
                                             }
-                                            
+
 
                                         </div>
                                     </div>
 
-                                    
+
                                     <div class="single-sidebar-widget">
                                         <h4 class="single-sidebar-widget__title">تگ ها :</h4>
                                         <ul class="single-sidebar-widget__tag-list">
-                                          @foreach (var tag in Model.ArticleCategory.KeywordList)
-                                          {
-                                              <li>
-                                                  <a asp-page="/Search" asp-route-value="@tag">@tag</a>
-                                              </li>
-                                          }
-                                            
-                                           
+                                            @foreach (var tag in Model.ArticleCategory.KeywordList)
+                                            {
+                                                <li>
+                                                    <a asp-page="/Search" asp-route-value="@tag">@tag</a>
+                                                </li>
+                                            }
+
+
 
                                         </ul>
                                     </div>

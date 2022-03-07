@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "irg7CAh6aGZQXI/L/PrNxtOrg89eOQBEXy3Kau9LZ+aTZVCq6ES4I94m9ieowOCKb+bcvjqM/YMBAfUM5Ztglw==",
+  "dgSpecHash": "nWZL3MUriaCtX/i8uSdPgglIXznjadXKPL1mULdge79p0WjpPwpG8A3Xzc12aF/leCbB5s7kZowyomUSbJdoVw==",
   "success": true,
   "projectFilePath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Configuration\\DiscountManagement.Configuration.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
+    "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.2.0\\microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
+    "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.cookies\\2.2.0\\microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authorization\\2.2.0\\microsoft.aspnetcore.authorization.2.2.0.nupkg.sha512",
     "C:\\Users\\FoRuD\\.nuget\\packages\\microsoft.aspnetcore.authorization.policy\\2.2.0\\microsoft.aspnetcore.authorization.policy.2.2.0.nupkg.sha512",

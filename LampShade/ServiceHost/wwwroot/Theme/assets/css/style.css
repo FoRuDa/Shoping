@@ -2685,7 +2685,7 @@ select {
 	display: -ms-flexbox;
 	display: flex;
 	flex-direction: column;
-	padding: 5px
+    padding: 5px;
 	text-align: center;
 	/* background: #fff; */
 	-webkit-box-orient: vertical;
@@ -8218,6 +8218,7 @@ h3.contact-page-title {
 	font-size: 10px;
 	margin-top: 10px;
 }
+
 
 .newsletter-wrapper .small-text {
 	margin-bottom: 10px;

@@ -204,3 +204,7 @@ body {
     height: 100%;
     width: 100%;
 }
+.alertMessage {
+    width: 20pc;
+    margin: auto;
+}

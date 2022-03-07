@@ -5,7 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AccountManagement.Configuration\AccountManagement.Configuration.csproj" />
     <ProjectReference Include="..\BlogManagement.Infrastructure.Configuration\BlogManagement.Infrastructure.Configuration.csproj" />
+    <ProjectReference Include="..\CommentApplication.Infrastructure.Configuration\CommentApplication.Infrastructure.Configuration.csproj" />
+    <ProjectReference Include="..\CommentManagement.Application.Contracat\CommentManagement.Application.Contracts.csproj" />
     <ProjectReference Include="..\DiscountManagement.Configuration\DiscountManagement.Configuration.csproj" />
     <ProjectReference Include="..\InventoryManagement.Infrastructure.Configuration\InventoryManagement.Infrastructure.Configuration.csproj" />
     <ProjectReference Include="..\ShopManagement.Configuration\ShopManagement.Configuration.csproj" />

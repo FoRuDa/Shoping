@@ -70,3 +70,9 @@ C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\n
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Infrastructure.EFCore.pdb
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Application.Contracts.pdb
 C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\BlogManagement.Domain.pdb
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentApplication.Infrastructure.EFCore.dll
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.dll
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Domain.dll
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentApplication.Infrastructure.EFCore.pdb
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Application.Contracts.pdb
+C:\Users\FoRuD\Downloads\Compressed\asad\LampShade\01_LampShadeQuery\bin\Debug\net5.0\CommentManagement.Domain.pdb

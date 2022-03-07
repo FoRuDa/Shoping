@@ -27,6 +27,24 @@
           "lib/netstandard2.0/Microsoft.AspNetCore.Antiforgery.dll": {}
         }
       },
+      "Microsoft.AspNetCore.Authentication/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Core": "2.2.0",
+          "Microsoft.AspNetCore.DataProtection": "2.2.0",
+          "Microsoft.AspNetCore.Http": "2.2.0",
+          "Microsoft.AspNetCore.Http.Extensions": "2.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "2.2.0",
+          "Microsoft.Extensions.Options": "2.2.0",
+          "Microsoft.Extensions.WebEncoders": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -39,6 +57,18 @@
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.AspNetCore.Authentication.Cookies/2.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Authentication": "2.2.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authentication.Core/2.2.0": {
@@ -2614,9 +2644,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Microsoft.AspNetCore.Authentication.Cookies": "2.2.0",
           "Microsoft.AspNetCore.Http.Features": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Abstractions": "2.2.0",
-          "Microsoft.EntityFrameworkCore": "5.0.13"
+          "Microsoft.EntityFrameworkCore": "5.0.13",
+          "Newtonsoft.Json": "11.0.2"
         },
         "compile": {
           "bin/placeholder/0_Framework.dll": {}
@@ -2667,6 +2699,49 @@
         },
         "runtime": {
           "bin/placeholder/BlogManagement.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "CommentApplication.Infrastructure.EFCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CommentManagement.Domain": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
+          "Microsoft.EntityFrameworkCore.Tools": "5.0.13"
+        },
+        "compile": {
+          "bin/placeholder/CommentApplication.Infrastructure.EFCore.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentApplication.Infrastructure.EFCore.dll": {}
+        }
+      },
+      "CommentManagement.Application.Contracts/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Application.Contracts.dll": {}
+        }
+      },
+      "CommentManagement.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "0_Framework": "1.0.0",
+          "CommentManagement.Application.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CommentManagement.Domain.dll": {}
         }
       },
       "DiscountManagement.Application.Contract/1.0.0": {
@@ -2834,6 +2909,19 @@
         "microsoft.aspnetcore.antiforgery.nuspec"
       ]
     },
+    "Microsoft.AspNetCore.Authentication/2.2.0": {
+      "sha512": "b0R9X7L6zMqNsssKDvhYHuNi5x0s4DyHTeXybIAyGaitKiW1Q5aAGKdV2codHPiePv9yHfC9hAMyScXQ/xXhPw==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.xml",
+        "microsoft.aspnetcore.authentication.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Authentication.Abstractions/2.2.0": {
       "sha512": "VloMLDJMf3n/9ic5lCBOa42IBYJgyB1JhzLsL68Zqg+2bEPWfGBj/xCJy/LrKTArN0coOcZp3wyVTZlx0y9pHQ==",
       "type": "package",
@@ -2845,6 +2933,19 @@
         "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Abstractions.xml",
         "microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
         "microsoft.aspnetcore.authentication.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authentication.Cookies/2.2.0": {
+      "sha512": "Iar9VFlBHkZGdSG9ZUTmn6Q8Qg+6CtW5G/TyJI2F8B432TOH+nZlkU7O0W0byow6xsxqOYeTviSHz4cCJ3amfQ==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authentication.cookies/2.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authentication.Cookies.xml",
+        "microsoft.aspnetcore.authentication.cookies.2.2.0.nupkg.sha512",
+        "microsoft.aspnetcore.authentication.cookies.nuspec"
       ]
     },
     "Microsoft.AspNetCore.Authentication.Core/2.2.0": {
@@ -8592,6 +8693,21 @@
       "path": "../BlogManagement.Infrastructure.EFCore/BlogManagement.Infrastructure.EFCore.csproj",
       "msbuildProject": "../BlogManagement.Infrastructure.EFCore/BlogManagement.Infrastructure.EFCore.csproj"
     },
+    "CommentApplication.Infrastructure.EFCore/1.0.0": {
+      "type": "project",
+      "path": "../CommentApplication.Infrastructure.EFCore/CommentApplication.Infrastructure.EFCore.csproj",
+      "msbuildProject": "../CommentApplication.Infrastructure.EFCore/CommentApplication.Infrastructure.EFCore.csproj"
+    },
+    "CommentManagement.Application.Contracts/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Application.Contracat/CommentManagement.Application.Contracts.csproj",
+      "msbuildProject": "../CommentManagement.Application.Contracat/CommentManagement.Application.Contracts.csproj"
+    },
+    "CommentManagement.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CommentManagement.Domain/CommentManagement.Domain.csproj",
+      "msbuildProject": "../CommentManagement.Domain/CommentManagement.Domain.csproj"
+    },
     "DiscountManagement.Application.Contract/1.0.0": {
       "type": "project",
       "path": "../DiscountManagement.Application.Contract/DiscountManagement.Application.Contract.csproj",
@@ -8641,6 +8757,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "BlogManagement.Infrastructure.EFCore >= 1.0.0",
+      "CommentApplication.Infrastructure.EFCore >= 1.0.0",
       "DiscountManagement.Infrastructure.EFCore >= 1.0.0",
       "InventoryManagement.Infrastructure.EFCore >= 1.0.0",
       "ShopManagement.Infrastructure.EFCore >= 1.0.0"
@@ -8683,6 +8800,9 @@
           "projectReferences": {
             "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\BlogManagement.Infrastructure.EFCore\\BlogManagement.Infrastructure.EFCore.csproj"
+            },
+            "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\CommentApplication.Infrastructure.EFCore\\CommentApplication.Infrastructure.EFCore.csproj": {
+              "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\CommentApplication.Infrastructure.EFCore\\CommentApplication.Infrastructure.EFCore.csproj"
             },
             "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj": {
               "projectPath": "C:\\Users\\FoRuD\\Downloads\\Compressed\\asad\\LampShade\\DiscountManagement.Infrastructure.EFCore\\DiscountManagement.Infrastructure.EFCore.csproj"

@@ -4,12 +4,15 @@
     ViewData["Title"] = " صفحه اصلی";
 }
 
-
+@if (Model.Message != null)
+{
+    <div id="alertMessage" class="alert alert-success alertMessage">@Model.Message</div>
+}
 
 @await Component.InvokeAsync("Slide")
 
 @await Component.InvokeAsync("ProductCategory")
-    
+
 @await Component.InvokeAsync("ProductCategoryWithProduct")
 
 @await Component.InvokeAsync("LatestArrivals")
